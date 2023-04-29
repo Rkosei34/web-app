@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>3.1.4-RELEASE</version>
+	<version>3.1.4-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>JOMACS Releases Nexus Repository</name>
-	      <url>http://172.31.84.176:8081/repository/erp-release/</url>
+	      <name>KARDINAL Releases Nexus Repo</name>
+	      <url>http://172.31.31.92:8081/repository/Richie-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>JOMACS Snapshot Nexus Repository </name>
-	      <url>http://172.31.84.176:8081/repository/erp-snapshot/</url>
+	      <name>KARDINAL Snapshot Nexus Repo </name>
+	      <url>http://172.31.31.92:8081/repository/Richie-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
